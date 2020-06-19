@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = _ => (
+    <div>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="navbar-toggler mr-auto text-white">
+                AYA BANK
+            </div>
+            <button class="navbar-toggler ml-auto" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        
+        <footer class="bg-dark p-3 text-center text-white fixed-bottom">
+            By Heaven Team
+        </footer>
     </div>
-  );
-}
+);
 
 export default App;
